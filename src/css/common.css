@@ -16,3 +16,14 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  width: 70px;
+  height: 35px;
+  transition: box-shadow linear 250ms;
+  
+}
+
+button:hover {
+  box-shadow: 2px 4px 3px #212121;
+}
