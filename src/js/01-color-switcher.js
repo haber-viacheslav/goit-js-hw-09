@@ -27,7 +27,7 @@ function oncolorSwitcher () {
 function onSwitcherStop() {
     clearInterval(setId)
     if(!isActive){
-        refs.startBtnRef.removeAttribute('disabled')
+        refs.startBtnRef.removeAttribute('disabled', true)
     }
     isActive = true;
 }
