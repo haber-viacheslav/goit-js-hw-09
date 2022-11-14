@@ -1,6 +1,7 @@
 import flatpickr from 'flatpickr';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import 'flatpickr/dist/flatpickr.min.css';
+require('flatpickr/dist/themes/dark.css');
 // utils
 let setTimerId = null;
 let dateDiff = null;
